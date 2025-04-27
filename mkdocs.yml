@@ -1,0 +1,77 @@
+site_name: Rust 學習筆記
+theme:
+  name: material
+  language: zh-tw
+  features:
+    - navigation.tabs          # 啟用標籤 (Tabs) 功能
+    - navigation.tabs.sticky   # 標籤在滾動時保持固定
+    - navigation.sections      # 啟用部分導航分組
+    - navigation.expand        # 預設展開所有導航項目
+    - toc.integrate            # 將目錄 (TOC) 整合到導航中
+nav:
+  - 首頁: index.md
+  - Rust 的設計理念:
+      - 記憶體安全原則: design-principles/memory-safety-principles.md
+      - 型別安全原則: design-principles/type-safety-principles.md
+      - 錯誤處理理念: design-principles/error-handling-philosophy.md
+      - 並行安全設計: design-principles/concurrency-safety-design.md
+      - 零成本抽象理念: design-principles/zero-cost-abstraction-philosophy.md
+      - 互操作性設計: design-principles/interoperability-design.md
+  - 學習路徑:
+      - 階段 1：入門:
+          - 所有權基礎: learning-path/stage1-basics/ownership-basics.md
+          - 基本型別與語法: learning-path/stage1-basics/basic-types-syntax.md
+      - 階段 2：基礎進階:
+          - 生命週期入門: learning-path/stage2-intermediate/lifetimes-intro.md
+          - 錯誤處理基礎: learning-path/stage2-intermediate/error-handling-basics.md
+          - 記憶體管理基礎: learning-path/stage2-intermediate/memory-management-basics.md
+      - 階段 3：中級:
+          - 型別系統進階: learning-path/stage3-advanced/type-system-advanced.md
+          - 並發基礎: learning-path/stage3-advanced/concurrency-basics.md
+          - 模組化與代碼組織: learning-path/stage3-advanced/modularity-organization.md
+      - 階段 4：高級:
+          - 異步編程進階: learning-path/stage4-expert/async-programming-advanced.md
+          - 函數式編程特性: learning-path/stage4-expert/functional-features.md
+          - 宏與元編程: learning-path/stage4-expert/macros-metaprogramming.md
+      - 階段 5：專家級:
+          - 工具生態應用: learning-path/stage5-mastery/tooling-ecosystem-applications.md
+          - 互操作性與系統編程: learning-path/stage5-mastery/interoperability-systems-programming.md
+  - Rust 技術參考:
+      - 記憶體安全與所有權實現: technical-reference/memory-safety-ownership-implementation.md
+      - 型別系統與抽象應用: technical-reference/type-system-abstraction-applications.md
+      - 錯誤處理機制與可靠性: technical-reference/error-handling-mechanisms-reliability.md
+      - 並發與異步實現: technical-reference/concurrency-async-implementation.md
+      - 工具與生態概覽: technical-reference/tooling-ecosystem-overview.md
+      - 跨領域應用案例: technical-reference/cross-domain-use-cases.md
+  - 學習建議與資源:
+      - 學習方法與策略: learning-tips-resources/learning-methods-strategies.md
+      - 官方資源指南: learning-tips-resources/official-resources-guide.md
+      - 社區參與與支持: learning-tips-resources/community-engagement-support.md
+      - 源碼閱讀與進階學習: learning-tips-resources/source-code-reading-advanced-learning.md
+  - 標準函數庫的使用:
+      - 基礎模組介紹: standard-library-usage/basic-modules.md
+      - 資料處理與操作: standard-library-usage/data-processing.md
+      - 檔案與 I/O 操作: standard-library-usage/file-io-operations.md
+      - 並發與執行緒管理: standard-library-usage/concurrency-threading.md
+      - 進階應用案例: standard-library-usage/advanced-use-cases.md
+  - 資料結構的應用:
+      - 基礎資料結構: data-structures-applications/basic-data-structures.md
+      - 進階資料結構: data-structures-applications/advanced-data-structures.md
+      - 資料結構與所有權: data-structures-applications/data-structures-ownership.md
+      - 效能優化技巧: data-structures-applications/performance-optimization.md
+      - 實踐專案案例: data-structures-applications/practical-projects.md
+  - Rust Cheat Sheet:
+      - 基本語法速查: rust-cheat-sheet/basic-syntax.md
+      - 標準函數庫速查: rust-cheat-sheet/standard-library.md
+      - 常用工具與調試: rust-cheat-sheet/tools-debugging.md
+      - 錯誤處理與模式匹配: rust-cheat-sheet/error-handling-patterns.md
+      - 進階特性速查: rust-cheat-sheet/advanced-features.md
+
+markdown_extensions:
+  - admonition               # 支援提示框 (notes, warnings 等)
+  - pymdownx.details         # 支援可折疊的細節內容
+  - pymdownx.superfences     # 支援更好的代碼塊
+  - pymdownx.tabbed:         # 支援內容內的標籤分頁
+      alternate_style: true
+plugins:
+  - search                   # 啟用搜索功能
