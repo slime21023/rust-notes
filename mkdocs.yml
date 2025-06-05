@@ -36,18 +36,17 @@ nav:
       - 階段 5：專家級:
           - 工具生態應用: learning-path/stage5-mastery/tooling-ecosystem-applications.md
           - 互操作性與系統編程: learning-path/stage5-mastery/interoperability-systems-programming.md
-  - Rust 技術參考:
-      - 記憶體安全與所有權實現: technical-reference/memory-safety-ownership-implementation.md
-      - 型別系統與抽象應用: technical-reference/type-system-abstraction-applications.md
-      - 錯誤處理機制與可靠性: technical-reference/error-handling-mechanisms-reliability.md
-      - 並發與異步實現: technical-reference/concurrency-async-implementation.md
-      - 工具與生態概覽: technical-reference/tooling-ecosystem-overview.md
-      - 跨領域應用案例: technical-reference/cross-domain-use-cases.md
-  - 學習建議與資源:
-      - 學習方法與策略: learning-tips-resources/learning-methods-strategies.md
-      - 官方資源指南: learning-tips-resources/official-resources-guide.md
-      - 社區參與與支持: learning-tips-resources/community-engagement-support.md
-      - 源碼閱讀與進階學習: learning-tips-resources/source-code-reading-advanced-learning.md
+#   - Rust 技術參考:
+#       - 記憶體安全與所有權實現: technical-reference/memory-safety-ownership-implementation.md
+#       - 型別系統與抽象應用: technical-reference/type-system-abstraction-applications.md
+#       - 錯誤處理機制與可靠性: technical-reference/error-handling-mechanisms-reliability.md
+#       - 並發與異步實現: technical-reference/concurrency-async-implementation.md
+#       - 工具與生態概覽: technical-reference/tooling-ecosystem-overview.md
+#       - 跨領域應用案例: technical-reference/cross-domain-use-cases.md
+  - 學習建議:
+      - 技巧: learning-tips-resources/learning_rust_tips.md
+      - 資源: learning-tips-resources/rust_learning_resources.md
+      - 方向: learning-tips-resources/learning_rust_directions.md
   - 標準函數庫的使用:
       - 基礎模組介紹: standard-library-usage/basic-modules.md
       - 資料處理與操作: standard-library-usage/data-processing.md
